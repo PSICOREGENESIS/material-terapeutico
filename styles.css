@@ -1,0 +1,42 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f6f9fc;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+header, footer {
+  background: #3b82f6;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
