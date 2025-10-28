@@ -1,45 +1,90 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Material Psicológico</title>
-  <link rel="stylesheet" href="../styles.css">
-</head>
-<body>
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
 
-  <header class="encabezado">
-    <h1>🧠 Material Psicológico</h1>
-    <p>Ejercicios terapéuticos para fortalecer el bienestar emocional.</p>
-  </header>
+.encabezado {
+  background: #7b1fa2;
+  color: white;
+  padding: 40px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 
-  <main class="contenedor">
-    <section class="tarjeta">
-      <h2>📄 Emociones</h2>
-      <p>Reconocimiento y expresión de emociones.</p>
-      <a href="emociones.pdf" target="_blank" class="boton">Descargar</a>
-    </section>
+.encabezado h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
 
-    <section class="tarjeta">
-      <h2>📄 Ansiedad</h2>
-      <p>Técnicas y recursos para el manejo de la ansiedad.</p>
-      <a href="ansiedad.pdf" target="_blank" class="boton">Descargar</a>
-    </section>
+.encabezado p {
+  font-size: 1.1em;
+  opacity: 0.9;
+}
 
-    <section class="tarjeta">
-      <h2>📄 Autoestima</h2>
-      <p>Ejercicios para fortalecer la confianza personal.</p>
-      <a href="autoestima.pdf" target="_blank" class="boton">Descargar</a>
-    </section>
-  </main>
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
 
-  <div class="volver">
-    <a href="../index.html" class="boton">⬅️ Volver al inicio</a>
-  </div>
+.tarjeta {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-  <footer class="pie">
-    <p>✨ Material Psicológico — [Tu nombre o institución] ✨</p>
-  </footer>
+.tarjeta:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
 
-</body>
-</html>
+.tarjeta img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
+}
+
+.tarjeta h2 {
+  color: #4a148c;
+  margin-bottom: 10px;
+}
+
+.tarjeta p {
+  font-size: 0.95em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.boton {
+  background: #4a148c;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.boton:hover {
+  background: #6a1b9a;
+}
+
+.pie {
+  background: #4a148c;
+  color: white;
+  padding: 15px;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+
+.volver {
+  margin: 30px;
+}
