@@ -47,8 +47,8 @@ body {
 }
 
 .tarjeta img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 15px;
 }
 
@@ -82,9 +82,4 @@ body {
   color: white;
   padding: 15px;
   font-size: 0.9em;
-  margin-top: 40px;
-}
-
-.volver {
-  margin: 30px;
 }
